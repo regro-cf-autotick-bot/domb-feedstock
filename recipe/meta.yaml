@@ -1,5 +1,5 @@
 {% set name = "domb" %}
-{% set version = "2023.11.2" %}
+{% set version = "2023.11.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/domb-{{ version }}.tar.gz
-  sha256: 07534d39a936ec2c31e9711730e403d1f3b5e5b6fc41485f4ba550cf4e6f659d
+  sha256: 37d15450aaa7203141a1eb5a11211d30b2813b6fd4cc15eaa540ceb749ca6698
 
 build:
   noarch: python

@@ -17,12 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python >=3.8
     - setuptools >=61.0
   run:
     - matplotlib-base
     - numpy
     - pandas
+    - python >=3.8
     - scikit-image
     - scikit-learn
     - scikit-posthocs

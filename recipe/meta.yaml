@@ -20,20 +20,13 @@ requirements:
     - python >=3.9
     - setuptools >=61.0
   run:
-    - autograd >=1.6
-    - ipykernel >=6.19
-    - jupyter >=1.0
-    - matplotlib-base >=3.7
-    - mkdocstrings >=0.18
-    - numpy >=1.25
-    - pandas >=1.5
-    - pathos >=0.3
-    - plotly >=5.15
-    - python >=3.9
-    - scikit-image >=0.19
-    - scikit-learn >=1.0
-    - scikit-posthocs >=0.7
-    - scipy >=0.12
+    - matplotlib-base
+    - numpy
+    - pandas
+    - scikit-image
+    - scikit-learn
+    - scikit-posthocs
+    - scipy
 
 test:
   imports:

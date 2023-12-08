@@ -28,6 +28,7 @@ requirements:
     - scikit-learn
     - scikit-posthocs
     - scipy
+    - tifffile
 
 test:
   imports:
